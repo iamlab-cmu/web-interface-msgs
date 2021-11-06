@@ -1,11 +1,9 @@
 Button[] buttons
 Slider[] sliders
 TextInput[] text_inputs
-Bbox[] bboxes
 string instruction_text
 string camera_topic
 uint8 display_type
-string embedded_scripts
 trajectory_msgs/JointTrajectory traj1
 trajectory_msgs/JointTrajectory traj2
 string robot

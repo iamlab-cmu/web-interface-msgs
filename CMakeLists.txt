@@ -50,14 +50,12 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  Bbox.msg
   Button.msg
   Confirmation.msg
-  Request.msg
   Reply.msg
+  Request.msg
   Slider.msg
   TextInput.msg 
-  Voxel.msg
 )
 
 ## Generate services in the 'srv' folder
